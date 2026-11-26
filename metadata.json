@@ -1,0 +1,8 @@
+{
+  "name": "Remix Indian Forest Highway: 3D SUV Racing",
+  "description": "Realistic 3D Indian forest highway and off-road racing simulator featuring the Toyota Fortuner and Mahindra Scorpio S11 across 50 progressive levels with cockpit camera, dynamic weather, AI traffic, and roadside fuel station checkpoints.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,90 @@
+import { LevelConfig } from '../types/game';
+
+/**
+ * Endless Mountain Highway Corridors (all unlocked, infinite asphalt distance).
+ * Selecting a corridor configures the mountain terrain geometry, curve profile,
+ * starting weather/lighting, and highway code signage for an endless run.
+ */
+export const MOUNTAIN_ROUTES: LevelConfig[] = [
+  {
+    id: 1,
+    name: 'Manali–Leh Alpine Expressway',
+    region: 'Himachal Pradesh · Greater Himalayas',
+    highwayCode: 'NH-3',
+    roadWidth: 14.0,
+    curviness: 28,
+    turnFrequency: 1.0,
+    elevationAmp: 3.6,
+    aiSpeedFactor: 0.92,
+    weather: 'sunny',
+    description: 'Wide 4-lane dark asphalt mountain highway with sweeping valley bends, rocky cliff cuts, and clear crisp sunlight.',
+  },
+  {
+    id: 2,
+    name: 'Rohtang High-Pass Dawn Run',
+    region: 'Pir Panjal Range · Himachal Pradesh',
+    highwayCode: 'NH-3',
+    roadWidth: 13.6,
+    curviness: 34,
+    turnFrequency: 1.12,
+    elevationAmp: 4.2,
+    aiSpeedFactor: 0.95,
+    weather: 'morning',
+    description: 'Golden alpine sunrise illumination across gentle highway rises, steel guardrails, and brisk dawn traffic.',
+  },
+  {
+    id: 3,
+    name: 'Khandala–Pune Ghat Freeway',
+    region: 'Sahyadri Escarpment · Maharashtra',
+    highwayCode: 'NH-48',
+    roadWidth: 14.2,
+    curviness: 38,
+    turnFrequency: 1.18,
+    elevationAmp: 4.0,
+    aiSpeedFactor: 1.0,
+    weather: 'cloudy',
+    description: 'Fast curving escarpment blacktop flanked by basalt rock faces, milestone boards, and multi-lane highway traffic.',
+  },
+  {
+    id: 4,
+    name: 'Zoji La Cloud Corridor',
+    region: 'Ladakh Border · High Altitude',
+    highwayCode: 'NH-1',
+    roadWidth: 13.2,
+    curviness: 42,
+    turnFrequency: 1.24,
+    elevationAmp: 4.8,
+    aiSpeedFactor: 0.96,
+    weather: 'fog',
+    description: 'High-mountain mist drifting over dark wet tarmac bends and towering slate cliffs requiring sharp reflexes.',
+  },
+  {
+    id: 5,
+    name: 'Munnar Monsoon Ridgeway',
+    region: 'Western Ghats · Kerala',
+    highwayCode: 'NH-85',
+    roadWidth: 13.6,
+    curviness: 40,
+    turnFrequency: 1.2,
+    elevationAmp: 4.4,
+    aiSpeedFactor: 0.98,
+    weather: 'rain',
+    description: 'Slick rain-soaked mountain asphalt with specular reflections, lush green hillsides, and fast-rising traffic density.',
+  },
+  {
+    id: 6,
+    name: 'Agumbe Sunset Escarpment',
+    region: 'Shimoga Ridge · Karnataka',
+    highwayCode: 'NH-169A',
+    roadWidth: 13.4,
+    curviness: 45,
+    turnFrequency: 1.28,
+    elevationAmp: 4.6,
+    aiSpeedFactor: 1.04,
+    weather: 'evening',
+    description: 'Dramatic amber dusk sky over endless curving mountain asphalt with glowing taillights and brisk highway speeds.',
+  },
+];
+
+// Alias export for existing imports
+export const LEVELS = MOUNTAIN_ROUTES;
